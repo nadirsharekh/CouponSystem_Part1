@@ -62,10 +62,10 @@ public class Test {
 				System.out.println("Enter Type Client: Administrator Or Company Or Customer");
 
 				//Login By Administrator Client
-			//	ClientFacade CF=lm.login("admin@admin.com", "admin", ClientType.Administrator);
+				ClientFacade CF=lm.login("admin@admin.com", "admin", ClientType.Administrator);
 				
 				//Login By Company Client
-				ClientFacade CF=lm.login("Natheer@com.co.il","111", ClientType.Customer);
+				//ClientFacade CF=lm.login("amdocs@com.co.il","111", ClientType.Company);
 				
 				//Login By Customer Client
 				//ClientFacade CF=lm.login("Natheer@com.co.il","111", ClientType.Customer);
